@@ -1,0 +1,33 @@
+@keyframes spin {
+0%{
+    position: relative;
+    left:0px;
+
+
+}
+
+    25%{
+    position: relative;
+    left: 50px;
+}
+
+50%{
+    position: relative;
+    right: 50px;
+
+}
+75%{
+    position: relative;
+    right: 50px;
+}
+100%{
+    
+    position: relative;
+    left:0px;
+}
+
+}
+
+.animationImage{
+animation:spin 3s linear infinite;
+}
